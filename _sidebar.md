@@ -1,3 +1,2 @@
-- [Home](/ '首页')
-- [Guide](guide.md 'Guide')
-- [Demo](./demo/README)
+- [首页](/ '首页')
+- [文档](docs/README '文档')

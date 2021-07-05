@@ -1,0 +1,26 @@
+{
+  "name": "martin-journal",
+  "version": "1.0.0",
+  "description": "## run",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "docsify serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Huauauaa/martin-journal.git"
+  },
+  "keywords": [],
+  "author": "Harvey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Huauauaa/martin-journal/issues"
+  },
+  "homepage": "https://github.com/Huauauaa/martin-journal#readme",
+  "dependencies": {
+    "docsify": "^4.12.1"
+  }
+}
