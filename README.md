@@ -2,4 +2,6 @@
 
 ## run
 
-`docsify serve`
+```bash
+docsify serve
+```
