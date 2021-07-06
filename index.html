@@ -13,6 +13,7 @@
       rel="stylesheet"
       href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"
     />
+    <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
   </head>
   <body>
     <nav>
@@ -35,7 +36,17 @@
             '/zh-cn': '搜索',
             '/': 'Type to search'
           }
-        }
+        },
+        plugins: [
+          EditOnGithubPlugin.create(
+            'https://github.com/Huauauaa/martin-journal/blob/main/',
+            null,
+            (filePath) =>
+              filePath.startsWith('zh-cn')
+                ? '在 github 上编辑'
+                : 'Edit on github'
+          )
+        ]
       };
     </script>
     <!-- Docsify v4 -->
