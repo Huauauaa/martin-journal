@@ -6,6 +6,8 @@
 docsify serve
 ```
 
+## mermaid demo
+
 ```mermaid
 graph LR
     A --- B
