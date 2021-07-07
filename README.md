@@ -5,3 +5,8 @@
 ```bash
 docsify serve
 ```
+
+```mermaid
+graph LR
+    A --- B
+```
