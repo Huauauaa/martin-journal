@@ -1,5 +1,7 @@
 - [Home](/ 'Home')
-- [Document](docs/README 'Document')
-  - [first](docs/first)
-  - [second](docs/second/README)
-    - [second-1](docs/second/second-1)
+- [Album](albums/README)
+- Statistics
+  - [Record List](statistics/recordList)
+  - [Height](statistics/height)
+  - [Weight](statistics/weight)
+  - [Head](statistics/head)
