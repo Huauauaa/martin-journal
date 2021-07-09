@@ -1,9 +1,9 @@
-# Title
+# Hi！
 
-> To be or not to be, that's a question
+> I'm Martin.
 
-- Item 1
-- Item 2
+- I like swimming.
+- I like making friends.
 
 [GitHub](https://github.com/Huauauaa/martin-journal)
 [Start](README)

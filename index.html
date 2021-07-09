@@ -14,6 +14,11 @@
       href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"
     />
     <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
+
+    <link
+      rel="stylesheet"
+      href="//unpkg.com/@markbattistella/docsify-charty@latest/dist/docsify-charty.min.css"
+    />
     <style>
       .docsify-copy-code-button {
         padding: 0 !important;
@@ -66,6 +71,11 @@
             '/zh-cn/': '已复制',
             '/': 'Copied'
           }
+        },
+        charty: {
+          theme: '#f00',
+          mode: 'dark',
+          debug: true
         }
       };
     </script>
@@ -80,5 +90,6 @@
     <script>
       mermaid.initialize({ startOnLoad: true });
     </script>
+    <script src="//unpkg.com/@markbattistella/docsify-charty@latest/dist/docsify-charty.min.js"></script>
   </body>
 </html>

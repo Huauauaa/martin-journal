@@ -1,5 +1,7 @@
-- [首页](/ '首页')
-- [文档](zh-cn/docs/README '文档')
-  - [一](zh-cn/docs/first)
-  - [二](zh-cn/docs/second/README)
-    - [二-1](zh-cn/docs/second/second-1)
+- [首页](/zh-cn/README '首页')
+- [相册](zh-cn/albums/README)
+- 生长记录
+  - [记录列表](zh-cn/statistics/recordList)
+  - [身高曲线](zh-cn/statistics/height)
+  - [体重曲线](zh-cn/statistics/weight)
+  - [头围曲线](zh-cn/statistics/head)
