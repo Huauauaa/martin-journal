@@ -5,3 +5,5 @@
   - [身高曲线](zh-cn/statistics/height)
   - [体重曲线](zh-cn/statistics/weight)
   - [头围曲线](zh-cn/statistics/head)
+- 学习
+  - [数学](zh-cn/math/primary)

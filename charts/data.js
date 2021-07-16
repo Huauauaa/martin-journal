@@ -1,4 +1,4 @@
-const data = {
+const martinData = {
   '2021-04-22': { height: 51.0, weight: 3.28, head: 0 },
   '2021-04-24': { height: 0, weight: 3.29, head: 34.0 },
   '2021-04-29': { height: 0, weight: 3.55, head: 0 },
@@ -14,10 +14,10 @@ const data = {
   '2021-05-26': { height: 0, weight: 5.39, head: 0 },
   '2021-05-27': { height: 59.0, weight: 5.3, head: 0 },
   '2021-05-29': { height: 0, weight: 5.49, head: 0 },
-  '2021-06-24': { height: 63.0, weight: 6.8, head: 40.5 }
+  '2021-06-24': { height: 63.0, weight: 6.8, head: 40.5 },
 };
 
-const draw = (key) => {
+const draw = (key, data = martinData) => {
   const myChart = echarts.init(document.getElementById('main'));
   let flag = 0;
 
@@ -25,23 +25,23 @@ const draw = (key) => {
     xAxis: {
       type: 'category',
       boundaryGap: false,
-      data: Object.keys(data)
+      data: Object.keys(data),
     },
     yAxis: {
-      type: 'value'
+      type: 'value',
     },
     series: [
       {
-        data: Object.values(data).map((item) => {
+        data: Object.values(data).map(item => {
           if (item[key] !== 0) {
             flag = item;
           }
 
           return flag[key];
         }),
-        type: 'line'
-      }
-    ]
+        type: 'line',
+      },
+    ],
   };
 
   myChart.setOption(option);

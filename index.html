@@ -46,43 +46,43 @@
         onlyCover: true,
         coverpage: {
           '/': '_coverpage.md',
-          '/zh-cn/': '_coverpage.md'
+          '/zh-cn/': '_coverpage.md',
         },
         search: {
           placeholder: {
             '/zh-cn': '搜索',
-            '/': 'Type to search'
-          }
+            '/': 'Type to search',
+          },
         },
         plugins: [
           EditOnGithubPlugin.create(
             'https://github.com/Huauauaa/martin-journal/blob/main/',
             null,
-            (filePath) =>
+            filePath =>
               filePath.startsWith('zh-cn')
                 ? '在 github 上编辑'
-                : 'Edit on github'
-          )
+                : 'Edit on github',
+          ),
         ],
         copyCode: {
           buttonText: {
             '/zh-cn/': '复制',
-            '/': 'Copy to clipboard'
+            '/': 'Copy to clipboard',
           },
           errorText: {
             '/zh-cn/': '错误',
-            '/': 'Error'
+            '/': 'Error',
           },
           successText: {
             '/zh-cn/': '已复制',
-            '/': 'Copied'
-          }
+            '/': 'Copied',
+          },
         },
         charty: {
           theme: '#f00',
           mode: 'dark',
-          debug: true
-        }
+          debug: true,
+        },
       };
     </script>
     <!-- Docsify v4 -->
